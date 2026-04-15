@@ -1,0 +1,23 @@
+#container{
+ background-color: white;
+    
+}
+#botao{
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    
+}
+
+#quadrados{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+}
+.quadrado{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}

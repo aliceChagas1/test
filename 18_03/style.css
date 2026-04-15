@@ -1,0 +1,30 @@
+#container {
+    /* background-color: wheat; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    gap: 15px;
+}
+
+#container>button:nth-child(1) {
+    width: 120px;
+    height: 70px;
+    background-color: green;
+}
+
+#container>button:nth-child(2) {
+    width: 120px;
+    height: 70px;
+    background-color: red;
+}
+
+#container>button {
+    width: 120px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 15px;
+}

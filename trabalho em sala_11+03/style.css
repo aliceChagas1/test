@@ -1,0 +1,104 @@
+#container{
+/* background-color: wheat; */
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 20px;
+justify-content: center;
+gap: 15px;
+}
+
+#buttonleft{
+width: 100px;
+height: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 5px;
+
+}
+
+#buttonrigth{
+width: 100px;
+height: 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 5px;
+}
+
+#card{
+background-color: rgb(187, 168, 181);
+width: 200px;
+min-height: 300px;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+#text1{
+/* background-color: white; */
+color: rgb(160, 1, 1);
+width: 120px;
+height: 20px;
+display: flex;
+flex-direction:row;
+align-items: center;
+justify-content: center;
+}
+
+#text2{
+/* background-color: white; */
+color: rgb(160, 1, 1);
+width: 150px;
+height: 90px;
+display: flex;
+flex-direction:row;
+align-items: center;
+}
+
+#preço{
+/* background-color: white; */
+width: 120px;
+height: 20px;
+display: flex;
+flex-direction:row;
+align-items: center;
+justify-content: center;
+color: rgb(160, 1, 1);
+}
+
+#image{
+width: 120px;
+height: 70px;
+display: flex;
+flex-direction:row;
+align-items: center;
+justify-content: center;
+object-fit: cover;
+}
+
+#container>button:nth-child(1){
+    width: 120px;
+height: 70px;
+background-color: green;
+}
+
+#container>button:nth-child(2){
+    width: 120px;
+height: 70px;
+background-color: green;
+}
+
+
+#container>button{
+    width: 120px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 15px;
+}

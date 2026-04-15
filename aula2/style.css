@@ -1,0 +1,35 @@
+/* #botao{
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    
+}
+
+#cor{
+    color: aqua;
+} */
+
+
+
+#container {
+    background-color: rgb(255, 255, 255);
+}
+
+#quadrados {
+    display: flex;
+    flex-wrap: wrap;
+    /*funciona só depois do display;ele quebra a linha para não mudar nenhuma as dimenções*/
+
+    width: 230px;
+    height: 210px;
+}
+
+.quadrado {
+    /* .class para se repitir varias vezes #id repete só uma vez */
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}

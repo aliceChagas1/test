@@ -1,0 +1,30 @@
+#container {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+#botaodireito {
+    width: 100px;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#botaoesquerdo {
+    width: 100px;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+
+#imagem{
+     width: 100%;
+    height: 200px;
+}
